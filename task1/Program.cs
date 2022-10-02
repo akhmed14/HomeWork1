@@ -11,5 +11,3 @@ int b = int.Parse(Console.ReadLine());
 int max = a;
 if (a < b)  max = b;
 Console.WriteLine(max);
-
-
