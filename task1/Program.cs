@@ -9,5 +9,11 @@ int a = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число ");
 int b = int.Parse(Console.ReadLine());
 int max = a;
-if (a < b)  max = b;
-Console.WriteLine(max);
+int min = b;
+if (a < b) 
+{
+    max = b; 
+    min = a;
+} 
+Console.WriteLine("Большее число = " + max); 
+Console.WriteLine("Меньшее число = " + min);
